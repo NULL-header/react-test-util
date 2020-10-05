@@ -15,13 +15,12 @@ This is for the rule wich is related operation of the project.
 
 1. post an issues
 2. take a branch of the issue from develop
-3. take a branch of tasks from it (advance)
-4. code goodly
-5. adjust logs of commits with interactive rebase
-6. push to the repository
-7. post the Pull request
-8. be reviewed the code
-9. merge the branch to origin branch
+3. code goodly
+4. adjust logs of commits with interactive rebase
+5. push to the repository
+6. post the Pull request
+7. be reviewed the code
+8. merge the branch to original branch
 
 ## Issues
 
