@@ -21,7 +21,7 @@ This is for the rule wich is related operation of the project.
 6. push to the repository
 7. post the Pull request
 8. be reviewed the code
-9. merge the branch to origin branch
+9. merge the branch to original branch
 
 ## Issues
 
