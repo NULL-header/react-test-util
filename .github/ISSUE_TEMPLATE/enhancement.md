@@ -9,8 +9,6 @@ assignees: ''
 
 ## Overview
 
-## Pages
-
 ## Purposes
 
 ## Specifications
