@@ -11,11 +11,13 @@
     "start": "node dist/index.js",
     "tsnode": "ts-node src/index.ts",
     "watch": "tsc -p tsconfig.json -w",
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.build.json",
     "lint": "eslint src/*.ts*",
     "lint:fix": "eslint src/*.ts* --fix",
     "dev": "webpack-dev-server --mode development --env.development --open --hot --progress",
-    "test": "jest"
+    "test": "jest",
+    "prepareDel":"ls -a -I\".\" -I\"..\" | grep -vE \"dis|package.json|^.git$|node_modules\" | xargs rm -r | rm dist/empty",
+    "preparetion":"yarn build && yarn prepareDel"
   },
   "devDependencies": {
     "@testing-library/dom": "^7.24.3",
