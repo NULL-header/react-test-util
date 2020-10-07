@@ -1,6 +1,6 @@
 {
   "name": "@null-header/react-test-util",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "author": "NULL-header",
   "main": "dist/index.js",
   "license": "MIT",
