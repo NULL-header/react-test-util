@@ -16,7 +16,7 @@
     "lint:fix": "eslint src/*.ts* --fix",
     "dev": "webpack-dev-server --mode development --env.development --open --hot --progress",
     "test": "jest",
-    "prepareDel":"ls -a -I\".\" -I\"..\" | grep -vE \"dis|package.json|^.git$|node_modules\" | xargs rm -r | rm dist/empty",
+    "prepareDel":"ls -a -I\".\" -I\"..\" | grep -vE \"dis|package.json|^.git$\" | xargs rm -r | rm dist/empty",
     "preparetion":"yarn build && yarn prepareDel"
   },
   "devDependencies": {
