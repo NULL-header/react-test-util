@@ -9,6 +9,11 @@ export const renderDomFactory = function <T, U extends Partial<T>>(
     const props = { ...getProps(), ...options };
     const passedElements = React.cloneElement(elements, props);
     const domTree = render(passedElements);
-    return { container: domTree.container, props };
+    const rerender = (options = {} as U) => {
+      const props = { ...getProps(), ...options };
+      domTree.rerender(React.cloneElement(elements, options));
+      return { props };
+    };
+    return { container: domTree.container, props, rerender };
   };
 };
