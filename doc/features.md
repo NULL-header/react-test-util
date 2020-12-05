@@ -6,10 +6,6 @@ There are the features of the library.
 
 This is to use in test. Usually, you must define function to render the components; But you can use this to make it simpler than without this.
 
-## getPropsFactory
-
-This is to use to make getter of the property of component for function to render; And this is a shorthund of arrow function.
-
 ## getElementsFrom
 
 This is to use to get elements. So, you run it after function to render. it is taken factory pattern; If you pass the element as argument to this, this return instance of the class to search element. It has a method which can search elements by name of tag. And the method return instance of the class which extends Array; So, the method is factory pattern, too. There is the search result in the instance.  
