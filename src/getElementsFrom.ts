@@ -3,7 +3,7 @@ import { Tags } from "./types";
 import { Elements } from "./Elements";
 
 class ElementSearcher {
-  constructor(private readonly container: HTMLElement) {}
+  constructor(private readonly container: Element) {}
 
   byTagName<T extends Tags>(tagName: T) {
     const els = this.container.getElementsByTagName(tagName);
@@ -12,5 +12,5 @@ class ElementSearcher {
 }
 
 export const getElementsFrom = (
-  container = (document as unknown) as HTMLElement
+  container: Element = (document as unknown) as Element
 ) => new ElementSearcher(container);
