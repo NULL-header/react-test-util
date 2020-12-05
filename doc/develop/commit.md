@@ -1,12 +1,12 @@
 # commit
 
 ## TOC
+
 * [What is this](#what-is-this)
-* [Rules](#rules)
-  * [Commit messages](#commit-messages)
-    * [Prefixes](#prefixes)
-    * [Contents](#contents)
-  * [Rebase](#rebase)
+* [Commit messages](#commit-messages)
+  * [Prefixes](#prefixes)
+  * [Contents](#contents)
+* [Rebase](#rebase)
 
 ## What is this
 
