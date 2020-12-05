@@ -2,13 +2,23 @@
 
 react-test-util have two functions as utils for a test with @testing-library/react. These make your test effective, and Commonized, more readable.
 
-The concise feature is following;
+The concise feature is the following;
 
 * easier to write a unit test
 * more strict with a test
 * made by TypeScript
 
 But this is not good at a scenario test. So, you should think that it is a unit test-only.
+
+## TOC
+
+* [react-test-util](#react-test-util)
+  * [TOC](#toc)
+  * [Install](#install)
+    * [Yarn](#yarn)
+    * [Npm](#npm)
+  * [Usage](#usage)
+  * [License](#license)
 
 ## Install
 
@@ -17,18 +27,21 @@ But this is not good at a scenario test. So, you should think that it is a unit 
 > Change version number you want.
 
 ### Yarn
-```
-$ yarn install -D ssh://git@github.com:NULL-header/react-test-util.git#version
+
+```sh
+yarn install -D ssh://git@github.com:NULL-header/react-test-util.git#version
 ```
 
 ### Npm
-```
-$ npm i --save-dev git+git@github.com:NULL-header/react-test-util.git#version
+
+```sh
+npm i --save-dev git+git@github.com:NULL-header/react-test-util.git#version
 ```
 
-There are the branches as versions in the repository. So you must specify the branch name you want when you install this.
+There are the tags as versions in the repository. So you must specify the tag name you want when you install this.
 
 ## Usage
+
 ```tsx
 import { getElementsFrom, renderDomFactory } from "null-header/react-test-util";
 
