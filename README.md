@@ -29,7 +29,7 @@ But this is not good at a scenario test. So, you should think that it is a unit 
 ### Yarn
 
 ```sh
-yarn install -D ssh://git@github.com:NULL-header/react-test-util.git#version
+yarn add -D ssh://git@github.com:NULL-header/react-test-util.git#version
 ```
 
 ### Npm
